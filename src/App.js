@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import TechnologiesBar from './components/TechnologiesBar';
+import Technologies from './components/Technologies';
 import Title from './components/Title';
 
 function App() {
+  
   return (
     <div className="App">
 
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route path={'/'} element={<Title/>}/>
         </Routes>
-        <TechnologiesBar/>
+        <Technologies/>
         
       </BrowserRouter>
     
